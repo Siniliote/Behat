@@ -20,7 +20,7 @@ use ReflectionMethod;
  *
  * @author Konstantin Kudryashov <ever.zet@gmail.com>
  */
-final class BuiltInServiceContainer implements ContainerInterface
+final class BuiltInServiceContainer implements PsrContainerInterface
 {
     /**
      * @var array
